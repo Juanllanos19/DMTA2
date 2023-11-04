@@ -7,4 +7,4 @@ WITH all_products AS (
 )
 SELECT *
 FROM all_products
-WHERE Codigo NOT IN (SELECT producto FROM dmtaller2.supermercado.Compras);
+WHERE Codigo NOT IN (SELECT producto FROM dmtaller2.supermercado.Compras)
